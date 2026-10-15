@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TarifStudio · Seda'nın Tarif Defteri</title>
+<meta name="description" content="TarifStudio, Seda'nın Tarif Defteri YouTube kanalının kendi videolarını hazırlayıp kanala yüklemek için kullandığı kişisel bir araçtır.">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="ust">
+    <img src="logo.png" alt="Seda'nın Tarif Defteri logosu">
+    <div>
+      <div class="ad">TarifStudio</div>
+      <div class="alt">Seda'nın Tarif Defteri</div>
+    </div>
+  </div>
+  <nav>
+    <a href="./" aria-current="page">Ana sayfa / Home</a>
+    <a href="gizlilik.html">Gizlilik / Privacy</a>
+    <a href="sartlar.html">Şartlar / Terms</a>
+  </nav>
+</header>
+<main>
+  <h1>TarifStudio</h1>
+  <p class="tarih">Seda'nın Tarif Defteri için kişisel video hazırlama ve yükleme aracı</p>
+
+  <section class="dil" lang="tr">
+    <span class="etiket">TÜRKÇE</span>
+    <h2>Bu uygulama nedir?</h2>
+    <p>TarifStudio, <a href="https://www.youtube.com/@sedanntarifdefteri">Seda'nın Tarif Defteri</a>
+      YouTube kanalının sahibinin kendi bilgisayarında çalışan kişisel bir araçtır. Kanal sahibinin
+      çektiği yemek tarifi videolarını kurgular; altyazı, kapak görseli, başlık ve açıklama hazırlar
+      ve bunları YouTube Data API aracılığıyla <strong>yalnızca kanal sahibinin kendi kanalına</strong> yükler.</p>
+    <h2>Google hesabıyla ne yapar?</h2>
+    <ul>
+      <li>Kanal sahibinin hazırladığı videoları kanala yükler (<code>youtube.upload</code>).</li>
+      <li>Yüklenen videoya kapak görseli ve Türkçe altyazı dosyası ekler (<code>youtube.force-ssl</code>).</li>
+    </ul>
+    <p>Uygulama herkese açık değildir; başka kullanıcılar giriş yapamaz ve başka hesapların verisine
+      erişmez. Ayrıntılar için <a href="gizlilik.html">Gizlilik Politikası</a>'na bakın.</p>
+  </section>
+
+  <section class="dil" lang="en">
+    <span class="etiket">ENGLISH</span>
+    <h2>What is this application?</h2>
+    <p>TarifStudio is a private, single-user desktop tool that runs on the computer of the owner of the
+      <a href="https://www.youtube.com/@sedanntarifdefteri">Seda'nın Tarif Defteri</a> YouTube channel
+      (a Turkish home-cooking channel). It edits the owner's own recipe videos, prepares subtitles,
+      thumbnails, titles and descriptions, and uploads them through the YouTube Data API
+      <strong>only to the owner's own channel</strong>.</p>
+    <h2>How it uses Google / YouTube access</h2>
+    <ul>
+      <li>Uploads videos created by the channel owner to the owner's channel (<code>youtube.upload</code>).</li>
+      <li>Sets the thumbnail and uploads a Turkish caption track for those videos (<code>youtube.force-ssl</code>).</li>
+    </ul>
+    <p>The application is not offered to the public: no other users sign in and it does not access other
+      accounts' data. See the <a href="gizlilik.html">Privacy Policy</a> and <a href="sartlar.html">Terms of Service</a>.</p>
+  </section>
+</main>
+<footer><div>
+  TarifStudio uses YouTube API Services. ·
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> ·
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
+</div></footer>
+</body>
+</html>
