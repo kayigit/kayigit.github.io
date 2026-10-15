@@ -89,3 +89,17 @@ footer {
   font-size: .9rem;
 }
 footer div { max-width: 820px; margin: 0 auto; padding: 20px 16px 32px; }
+.youtube {
+  border: 2px solid var(--kirmizi);
+  border-radius: 14px;
+  padding: 4px 20px 8px;
+  margin: 0 0 28px;
+  background: var(--kart);
+}
+.yt-baslik {
+  font-weight: 800;
+  font-size: 1.1rem;
+  color: var(--kirmizi);
+  margin-bottom: 0;
+}
+.yt-linkler { font-size: .95rem; }
